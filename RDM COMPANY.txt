@@ -1,0 +1,186 @@
+0. Uninstall ANY SIEMENS SPLM License Server if one is installed:
+
+   - If the original SPLM License Server is installed, use "Programs and Features" 
+     to remove it
+
+   - If SSQ SPLM License Server is installed, run as Administrator the "server_remove.bat"
+     from the SPLM License Server folder
+
+1. DO NOT install original SPLM License Server from NX setup media!!!
+
+2. Install or update the SolidSQUAD Universal License Server
+
+   If SolidSQUAD Universal License Server has never been installed
+   on the computer:
+
+     - unzip the "SolidSQUAD_License_Servers" folder from 
+     "Server\SSQ_UniversalLicenseServer_Core_<release-date>.zip" to any DRIVE ROOT 
+     folder X:\ (like C:\, D:\, E:\ etc), so the path will be:
+
+	X:\SolidSQUAD_License_Servers
+
+     - unzip the "Vendors" folder from 
+      "Server\SSQ_UniversalLicenseServer_Module_SiemensPLM_<release-date>.zip"
+      to the "SolidSQUAD_License_Servers" folder
+
+     - As administrator run "install_or_update.bat" from "SolidSQUAD_License_Servers" 
+       folder and wait until it completes
+
+   -- OR --
+
+   If SolidSQUAD Universal License Server is already installed, 
+   but the release-date of "Server\SSQ_UniversalLicenseServer_Core_<release-date>.zip"
+   is newer than the installed one, update the server installation:
+
+     - As administrator run "uninstall.bat" from "SolidSQUAD_License_Servers" 
+       folder and wait until it completes
+
+     - unzip the "SolidSQUAD_License_Servers" folder from 
+     "Server\SSQ_UniversalLicenseServer_Core_<release-date>.zip" to any DRIVE ROOT 
+     folder X:\ (like C:\, D:\, E:\ etc), so the path will be:
+
+	X:\SolidSQUAD_License_Servers
+
+     - unzip the "Vendors" folder from 
+      "Server\SSQ_UniversalLicenseServer_Module_SiemensPLM_<release-date>.zip"
+      to the "SolidSQUAD_License_Servers" folder
+
+     - As administrator run "install_or_update.bat" from "SolidSQUAD_License_Servers" 
+       folder and wait until it completes
+
+   -- OR --
+
+   If the release-date of "Server\SSQ_UniversalLicenseServer_Core_<release-date>.zip" is
+   not newer than the installed one but the release-date of 
+   "Server\SSQ_UniversalLicenseServer_Module_SiemensPLM_<release-date>.zip" is newer 
+   than the installed one, update SiemensPLM module only:
+
+     - unzip the "Vendors" folder from 
+      "Server\SSQ_UniversalLicenseServer_Module_SiemensPLM_<release-date>.zip"
+      to the "SolidSQUAD_License_Servers" folder
+
+     - As administrator run "install_or_update.bat" from "SolidSQUAD_License_Servers" 
+       folder and wait until it completes
+
+5. Install NX-2027.3102 Win64 with full setup "Siemens.NX.2027.3102.Win64.Full.Setup.iso" or
+   update any previous NX-2007 Series Win64 to NX-2027.3102 with "Siemens.NX.2027.3102.Win64.Update.only.iso"
+
+   At setup when asked for license server port and name input: 27800@localhost
+
+6. Overwrite original <NX2007> program folder (by default C:\Program Files\Siemens\NX2007 )
+   with cracked one from folder "Client"
+
+7. Run "SolidSQUADLoaderEnabler.reg" and confirm to add info into Windows Registry
+
+8. Reboot computer
+
+9. Enjoy!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDM Engineering & Design</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #0b2c44;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #0b2c44;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #0b2c44;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        a {
+            color: #0b2c44;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RDM Engineering & Design</h1>
+    <p>2D Drafting • 3D Modeling • Mechanical Design</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        RDM Engineering & Design is a professional CAD and mechanical design company
+        providing accurate 2D drawings, high-quality 3D models, and engineering solutions
+        for individuals, startups, and companies.
+    </p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>2D Drafting</h3>
+            <p>Technical drawings, floor plans, and construction documents.</p>
+        </div>
+        <div class="card">
+            <h3>3D Modeling</h3>
+            <p>Product design, visualization, and realistic CAD models.</p>
+        </div>
+        <div class="card">
+            <h3>Mechanical Design</h3>
+            <p>Machine parts, assemblies, and engineering solutions.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>📞 Phone: 0550557342</p>
+    <p>📧 Email: dehrichard06@gmail.com</p>
+    <p>
+        💬 WhatsApp:
+        <a href="https://wa.me/233550557342" target="_blank">Chat with us</a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 RDM Engineering & Design. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
